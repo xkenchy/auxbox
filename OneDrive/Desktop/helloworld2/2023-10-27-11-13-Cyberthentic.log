@@ -1,0 +1,14 @@
+Oct 27, 2023 11:13:41 AM com.cyberthentic.Cyberthentic receive
+INFO: Properties file 'constant.properties' loaded successfully.
+Oct 27, 2023 11:13:45 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: API call was successful.
+Oct 27, 2023 11:13:45 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Code: 200
+Oct 27, 2023 11:13:45 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Body: {"statusCode":200,"body":"[\"{\\\"id\\\":\\\"BSMG94a4a4e3-cae6-4935-8fcd-36b13e3d91db\\\",\\\"to\\\":\\\"helloworld2%group2@cyberthentic.com\\\",\\\"from\\\":\\\"helloworld1%group1@cyberthentic.com\\\",\\\"body\\\":\\\"welcome\\\",\\\"time\\\":\\\"2023-10-27T15:10:16.409Z\\\",\\\"fileName\\\":\\\"AGNT000a25403-931661e05-33-12edd67/0000000-COUR0630d8c0-c483-4427-b0fe-14510a87b45e-DOMN10-134te508875-4545-eg0234a-003-1698419507583-302192.json\\\"}\"]"}
+Oct 27, 2023 11:13:46 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: API call was successful.
+Oct 27, 2023 11:13:46 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Code: 200
+Oct 27, 2023 11:13:46 AM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Body: {"statusCode":200,"body":"\"Messages deleted\""}

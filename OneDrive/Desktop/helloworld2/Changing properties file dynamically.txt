@@ -1,0 +1,76 @@
+
+
+
+First method to loop and change values in a properties file.
+
+import java.io.*;
+import java.util.Properties;
+
+public class UpdatePropertiesFile {
+
+    public static void main(String[] args) {
+        Properties pro = new Properties();
+        String filePath = "eddy.properties";
+
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            pro.load(fileInputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Loop through the properties and update as needed
+        for (String key : pro.stringPropertyNames()) {
+            if ("API".equals(key)) {
+                pro.setProperty("API", "Chukwuma");
+            } else if ("Age".equals(key)) {
+                pro.setProperty("Age", "25"); // For example, update the age to 25
+            }
+        }
+
+        try (FileWriter fileWriter = new FileWriter(filePath)) {
+            pro.store(fileWriter, "Updated properties");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+
+
+second method to change Properties file dynamically;
+
+import java.io.*;
+import java.util.Properties;
+
+public class UpdatePropertiesFile {
+
+    public static void main(String[] args) {
+        Properties pro = new Properties();
+        String filePath = "eddy.properties";
+
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            pro.load(fileInputStream);
+
+            // Check if the "API" property exists
+            if (pro.containsKey("API")) {
+                // Update the value of the "API" property
+                pro.setProperty("API", "Chukwuma");
+            }
+            
+            // Check if the "Age" property exists
+            if (pro.containsKey("Age")) {
+                // Update the value of the "Age" property
+                pro.setProperty("Age", "25"); // For example, update the age to 25
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try (FileWriter fileWriter = new FileWriter(filePath)) {
+            pro.store(fileWriter, "Updated properties");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
