@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java1.8:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java1_8_jar</output-path>
+    <root id="archive" name="java1.8.jar">
+      <element id="module-output" name="java1.8" />
+    </root>
+  </artifact>
+</component>

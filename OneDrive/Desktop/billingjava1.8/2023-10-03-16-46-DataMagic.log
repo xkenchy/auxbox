@@ -1,0 +1,8 @@
+Oct 03, 2023 4:46:56 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Oct 03, 2023 4:47:04 PM com.datamagic.DataMagic handleApiResponse
+INFO: API call was successful.
+Oct 03, 2023 4:47:04 PM com.datamagic.DataMagic handleApiResponse
+INFO: Response Code: 200
+Oct 03, 2023 4:47:04 PM com.datamagic.DataMagic handleApiResponse
+INFO: Response Body: {"statusCode":200,"body":"{\"message\":\"Courier message details saved.\"}"}

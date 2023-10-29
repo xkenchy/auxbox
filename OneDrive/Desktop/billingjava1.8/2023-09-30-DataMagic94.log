@@ -1,0 +1,4 @@
+Sep 30, 2023 12:07:04 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 30, 2023 12:07:04 PM com.datamagic.DataMagic send
+INFO: Exception during API call :Server returned HTTP response code: 403 for URL: https://6cgl545avh.execute-api.us-east-1.amazonaws.com/dev/sen

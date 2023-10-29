@@ -1,0 +1,18 @@
+Sep 24, 2023 4:52:41 PM com.datamagic.DataMagic receive
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 24, 2023 4:53:05 PM com.datamagic.DataMagic receive
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 24, 2023 4:53:50 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 24, 2023 4:53:50 PM com.datamagic.DataMagic send
+INFO: {"sendParams":{"aPId":"AGNT000a25403-931661e05-33-a4w7gg","location":"New York","lastVersion":"AASV-0000.000.2.4.1","deviceType":"Laptop","deviceId":"DEVI03759e8ys394503zldtn","timeOfRequest":"2023-09-24T20:53:50.243Z","senderDomainName":"cyberthentic.com","senderDomainId":"DOMN10-134te508875-4545-eg0234a-003","timeZone":"Eastern Standard Time","senderDomainAgentId":"DMNAGNT94-eoi7436ur-334kjery3-oe73573ne","recipientDomainName":"cyberthentic.com","businessMsg":{"id":"BSMG3a1e3727-bf38-4658-84a1-1a8d6f627dc6","to":"billing%grp1@cyberthentic.com","from":"billing%grp1@cyberthentic.com","body":"This is a message to billing","time":"2023-09-24T20:53:50.106Z"}}}
+Sep 24, 2023 4:53:56 PM com.datamagic.DataMagic send
+INFO: API call was successful.
+Sep 24, 2023 4:53:56 PM com.datamagic.DataMagic send
+INFO: Response Code: 200
+Sep 24, 2023 4:53:56 PM com.datamagic.DataMagic send
+INFO: Response Body: {"errorType":"TypeError","errorMessage":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","trace":["TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","    at new NodeError (node:internal/errors:387:5)","    at Function.from (node:buffer:328:9)","    at encryptData (/var/task/index.js:421:17)","    at Runtime.exports.handler (/var/task/index.js:173:30)","    at processTicksAndRejections (node:internal/process/task_queues:96:5)"]}
+Sep 24, 2023 5:06:32 PM com.datamagic.DataMagic receive
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 24, 2023 5:07:30 PM com.datamagic.DataMagic receive
+INFO: Properties file 'constant.properties' loaded successfully.

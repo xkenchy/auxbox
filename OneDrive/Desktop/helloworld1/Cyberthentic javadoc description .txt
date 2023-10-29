@@ -1,0 +1,133 @@
+package com.cyberthentic;
+
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+/**
+ * The Cyberthentic class is like a magical messenger for secure communication. Imagine
+ * sending secret messages and receiving important information, all happening in a secure,
+ * well-organized way.
+ *
+ * **Sending Messages:** Let's start with sending messages. Think of it as writing a letter.
+ * You just write your message and provide the address of the person you want to send it to.
+ * Cyberthentic takes care of everything else. It makes sure your message is safe and sound
+ * during its journey, even in the mysterious world of the internet. The magic here happens
+ * with encryption, which is like sealing your letter with a special, secret seal so only
+ * the intended recipient can open it.
+ *
+ * **Receiving Messages:** Now, it's not just about sending messages; you can also receive
+ * them. You know when you check your mailbox for letters? Well, Cyberthentic does something
+ * similar but in the digital realm. It connects to the magical mail server, fetches your
+ * messages, and organizes them for you. It's like having a trusty butler who brings you
+ * your letters every day. Cyberthentic even cleans up your mailbox, so you don't have to
+ * deal with clutter.
+ *
+ * **Encryption:** You might be wondering about this encryption thing. It's like casting a
+ * spell on your messages. It transforms them into secret code, so no one can understand
+ * your message except the person it's meant for. So, it's like writing your letter in
+ * a secret language that only you and your friend can understand. Pretty cool, right?
+ *
+ * **Logging:** Ever wanted to keep a diary of your magical adventures? Cyberthentic does
+ * that too. It keeps a diary of what it's doing, but it's not just any diary. It's a magical
+ * diary that writes down everything that happens with your messages. Every time you send or
+ * receive a message, Cyberthentic writes it down in its special diary, so you can look back
+ * and see what happened during each magical session.
+ *
+ * So, if you ever need to send secret messages, receive important information, and keep
+ * everything well-organized and secure, think of Cyberthentic as your magical messenger.
+ * It's like having a magical butler for your digital communications.
+ */
+public class Cyberthentic {
+    // Class implementation...
+
+    // Methods and exception class...
+
+    // Logging setup...
+
+    // Encryption methods...
+}
+
+
+package com.datamagic;
+
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.PBEKeySpec;
+import javax.crypto.spec.SecretKeySpec;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.BufferedReader;
+import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.security.GeneralSecurityException;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalTime;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+/**
+ * DataMagic: A Magical Data Communication Class
+ *
+ * DataMagic is a versatile class that orchestrates secure and efficient communication
+ * of messages and data. Imagine a magical tool that takes your messages, encrypts them,
+ * sends them to their recipients, and even retrieves messages sent to you. This class
+ * makes it all happen!
+ *
+ * - **Sending Messages:** You can send messages to one or more recipients in a secure way.
+ *   DataMagic encrypts your messages, takes care of the technical details, and delivers
+ *   them to their destinations.
+ *
+ * - **Receiving Messages:** Not only can you send messages, but DataMagic also lets you
+ *   receive messages. It communicates with a server, retrieves messages meant for you,
+ *   and provides you with the magic of data.
+ *
+ * - **Encryption:** DataMagic incorporates strong encryption techniques to ensure that
+ *   your messages remain confidential and secure. It uses a combination of secret keys,
+ *   salts, and cryptographic algorithms to perform encryption and decryption.
+ *
+ * - **Logging:** This class also takes care of logging. Each run of DataMagic creates a
+ *   unique log file, so you can review what happened in each magical session.
+ *
+ * ## How to Use DataMagic
+ *
+ * Sending messages is as simple as calling the `send` method, providing the recipient's
+ * address and the message to send. DataMagic will handle the rest.
+ *
+ * To receive messages, call the `receive` method, which connects to the server and fetches
+ * messages for you. It even deletes messages you've already retrieved, keeping your
+ * communication organized.
+ *
+ * ## Configuration
+ *
+ * DataMagic allows you to configure your magic. You can set a secret key for encryption,
+ * specify the encryption salt, and control key generation parameters like iteration count
+ * and key length.
+ *
+ * ## Logging and Error Handling
+ *
+ * DataMagic keeps a log of its activities in unique log files, one for each run. This
+ * log includes information about successful API calls and how the magic unfolds.
+ * Should anything go wrong, DataMagic does its best to handle errors and provide helpful
+ * information.
+ *
+ * DataMagic, your magical data communicator, is here to make your life easier and
+ * your communication more secure. Use it wisely, and let the magic happen!
+ */
+public class DataMagic {
+    // Class implementation...
+}

@@ -1,0 +1,20 @@
+Sep 15, 2023 2:19:13 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:20:31 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:20:57 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:21:19 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:21:30 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:26:47 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:30:05 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 15, 2023 2:30:13 PM com.datamagic.DataMagic send
+INFO: API call was successful.
+Sep 15, 2023 2:30:13 PM com.datamagic.DataMagic send
+INFO: Response Code: 200
+Sep 15, 2023 2:30:13 PM com.datamagic.DataMagic send
+INFO: Response Body: {"statusCode":200,"body":"{\"message\":\"Courier message details saved.\"}"}

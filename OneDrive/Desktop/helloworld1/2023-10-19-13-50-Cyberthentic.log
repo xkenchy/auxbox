@@ -1,0 +1,8 @@
+Oct 19, 2023 1:50:10 PM com.cyberthentic.Cyberthentic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Oct 19, 2023 1:50:14 PM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: API call was successful.
+Oct 19, 2023 1:50:14 PM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Code: 200
+Oct 19, 2023 1:50:14 PM com.cyberthentic.Cyberthentic handleApiResponse
+INFO: Response Body: {"statusCode":200,"body":"{\"message\":\"Courier message details saved.\"}"}

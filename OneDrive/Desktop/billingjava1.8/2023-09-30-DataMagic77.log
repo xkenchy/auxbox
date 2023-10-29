@@ -1,0 +1,10 @@
+Sep 30, 2023 12:35:56 PM com.datamagic.DataMagic send
+INFO: Properties file 'constant.properties' loaded successfully.
+Sep 30, 2023 12:35:57 PM com.datamagic.DataMagic send
+INFO: Exception during API call :Server returned HTTP response code: 403 for URL: https://6cgl545avh.execute-api.us-east-1.amazonaws.com/dev/sen
+Sep 30, 2023 12:35:57 PM com.datamagic.DataMagic handleApiResponse
+WARNING: Forbidden - The server understood the request, but the client lacks the required permissions.
+Sep 30, 2023 12:35:57 PM com.datamagic.DataMagic handleApiResponse
+INFO: Response Code: 403
+Sep 30, 2023 12:35:57 PM com.datamagic.DataMagic handleApiResponse
+INFO: Response Body: 
