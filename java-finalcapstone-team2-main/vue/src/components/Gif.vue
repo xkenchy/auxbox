@@ -1,0 +1,53 @@
+<template>
+  
+    <div class="AuxBoxGif">
+
+        <div v-if="!isLoading">
+        <img src="..\assets\auxbox-gi.gif" >
+        </div>
+        
+
+    </div>
+
+
+</template>
+
+<script>
+
+
+export default {
+
+   
+
+    created(){
+
+        // http call will go here
+        // once call is done
+        // isLoading = false;
+        
+    }
+
+
+
+
+}
+
+
+</script>
+
+<style>
+
+.AuxBoxGif img{
+    width: 400px;
+    animation: image 3s infinite;
+   
+}
+
+ @keyframes image {
+    50% {box-shadow: 8px 8px 16px rgb(70, 39, 122);}
+ }
+
+
+ 
+
+</style>
